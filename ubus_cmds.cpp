@@ -1,9 +1,9 @@
 #include <algorithm>
 
-#include "common.h"
-#include "cpu.h"
-#include "shared.h"
-#include "ubus_cmds.h"
+#include "common.hpp"
+#include "cpu.hpp"
+#include "shared.hpp"
+#include "ubus_cmds.hpp"
 
 const struct blobmsg_policy get_policy[] = {
 	[CPU_ID] = { .name = "id", .type = BLOBMSG_TYPE_INT16 },

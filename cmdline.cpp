@@ -3,9 +3,9 @@
 #include <string>
 #include <thread>
 
-#include "cpu.h"
-#include "shared.h"
-#include "cmdline.h"
+#include "cpu.hpp"
+#include "shared.hpp"
+#include "cmdline.hpp"
 
 void parse_cmdline(int argc, char **argv) {
 

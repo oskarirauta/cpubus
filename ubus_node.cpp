@@ -1,9 +1,9 @@
 #include <algorithm>
 
-#include "common.h"
-#include "cpu.h"
-#include "shared.h"
-#include "ubus_node.h"
+#include "common.hpp"
+#include "cpu.hpp"
+#include "shared.hpp"
+#include "ubus_node.hpp"
 
 const struct blobmsg_policy node_policy[] = {
 	[NODE_FIELDS] = { .name = "fields", .type = BLOBMSG_TYPE_STRING },

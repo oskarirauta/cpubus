@@ -2,11 +2,11 @@
 #include <thread>
 #include <algorithm>
 
-#include "cpu.h"
-#include "shared.h"
-#include "ubus_cmds.h"
-#include "ubus_node.h"
-#include "ubus.h"
+#include "cpu.hpp"
+#include "shared.hpp"
+#include "ubus_cmds.hpp"
+#include "ubus_node.hpp"
+#include "ubus.hpp"
 
 struct ubus_context *ctx;
 struct blob_buf b;

@@ -4,9 +4,9 @@
 #include <string>
 #include <mutex>
 
-#include "cpu.h"
-#include "constants.h"
-#include "logger.h"
+#include "cpu.hpp"
+#include "constants.hpp"
+#include "logger.hpp"
 
 enum {
         UBUS_STOPPED = 0,

@@ -3,8 +3,8 @@
 #include <string>
 #include <algorithm>
 
-#include "shared.h"
-#include "ubus.h"
+#include "ubus.hpp"
+#include "shared.hpp"
 
 LOG loglevel = LOG::INFO;
 

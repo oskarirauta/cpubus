@@ -2,11 +2,11 @@
 #include <string>
 #include <thread>
 
-#include "cpu.h"
-#include "shared.h"
-#include "ubus.h"
-#include "cmdline.h"
-#include "loop.h"
+#include "cpu.hpp"
+#include "shared.hpp"
+#include "ubus.hpp"
+#include "cmdline.hpp"
+#include "loop.hpp"
 
 int main(int argc, char **argv) {
 

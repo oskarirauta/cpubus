@@ -6,8 +6,8 @@
 #include <sstream>
 #include <algorithm>
 
-#include "common.h"
-#include "cpu.h"
+#include "common.hpp"
+#include "cpu.hpp"
 
 cpu_node::cpu_node(int id, std::string name, std::string vendor, std::string model, int mhz, float load) {
 

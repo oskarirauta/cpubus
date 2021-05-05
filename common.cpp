@@ -2,7 +2,7 @@
 #include <algorithm>
 #include <sstream>
 
-#include "common.h"
+#include "common.hpp"
 
 namespace common {
 

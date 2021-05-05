@@ -1,7 +1,7 @@
 #ifndef _UBUS_CMDS_H_
 #define _UBUS_CMDS_H_ 1
 
-#include "ubus.h"
+#include "ubus.hpp"
 
 enum {
 	CPU_ID,

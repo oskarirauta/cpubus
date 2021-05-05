@@ -1,7 +1,7 @@
 #ifndef _UBUS_NODE_H_
 #define _UBUS_NODE_H_ 1
 
-#include "ubus.h"
+#include "ubus.hpp"
 
 enum {
 	NODE_FIELDS,

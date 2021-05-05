@@ -1,9 +1,9 @@
 #include <thread>
 
-#include "cpu.h"
-#include "shared.h"
-#include "ubus.h"
-#include "loop.h"
+#include "cpu.hpp"
+#include "shared.hpp"
+#include "ubus.hpp"
+#include "loop.hpp"
 
 void main_loop(void) {
 

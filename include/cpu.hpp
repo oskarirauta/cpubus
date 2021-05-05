@@ -4,8 +4,8 @@
 #include <string>
 #include <vector>
 
-#include "ubus.h"
-#include "cpu_tcks.h"
+#include "ubus.hpp"
+#include "cpu_tcks.hpp"
 
 class cpu_node {
 	public:
